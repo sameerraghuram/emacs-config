@@ -38,7 +38,11 @@
 
 ;;Python configuration
 
-(elpy-enable)
+(when (require 'elpy nil t)
+  (elpy-enable))
+
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 (add-hook 'python-mode-hook
       (lambda ()
@@ -46,9 +50,7 @@
         (auto-fill-mode 1)
         (linum-mode 1)
         (if (eq window-system 'x)
-            (font-lock-mode 1))))
+            (font-lock-mode))))
 
-(require 'py-autopep8)
-(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 ;; init.el ends here

@@ -14,6 +14,6 @@ I am not close to being an emacs power-user yet, I am still struggling with the 
 in hopes that once I get my bearings and a grasp of how to customize emacs to suit my style of development, I will have a much more 
 coherent and useful config which could (hopefully) help others with their config.
 
-##REFERENCES
+### REFERENCES
 - https://realpython.com/blog/python/emacs-the-best-python-editor/ 
 

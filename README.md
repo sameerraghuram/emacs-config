@@ -1,6 +1,6 @@
 # emacs-config
 
-My emacs configuration, at it's current state, is a jumble of bits and pieces of other configurations I have scoured on the internet.
+My emacs configuration, at it's current state, is a jumble of bits and pieces of other configurations I have sourced on the internet.
 This config is geared towards python development. With the following modules installed from the melpa archive.
 - auto-complete
 - elpy
